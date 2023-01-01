@@ -1,0 +1,34 @@
+.{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    display:grid;
+    height:100%;
+    place-items: center;
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer {
+    margin:0 50px;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+
+}
+.button{
+    height:70px;
+    width:220px;
+    border-radius:50px;
+    text-align: center;
+}
+.circle{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    text-align: center;
+}
